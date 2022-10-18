@@ -1,0 +1,29 @@
+Nothing to build in platform 'design_MicroBlazeButton_wrapper'
+
+15:49:24 **** Incremental Build of configuration Debug for project MicroBlaze_Button ****
+make all 
+'Building file: ../src/hw/Button/Button.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/hw/Button/Button.o" -ID:/FPGA/MicroBlaze_Button/MicroBlaze_Button_vitis/design_MicroBlazeButton_wrapper/export/design_MicroBlazeButton_wrapper/sw/design_MicroBlazeButton_wrapper/domain_microblaze_0/bspinclude/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/hw/Button/Button.d" -MT"src/hw/Button/Button.o" -o "src/hw/Button/Button.o" "../src/hw/Button/Button.c"
+'Finished building: ../src/hw/Button/Button.c'
+' '
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -ID:/FPGA/MicroBlaze_Button/MicroBlaze_Button_vitis/design_MicroBlazeButton_wrapper/export/design_MicroBlazeButton_wrapper/sw/design_MicroBlazeButton_wrapper/domain_microblaze_0/bspinclude/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+In file included from ../src/main.c:1:
+../src/main.h:12:8: error: no macro name given in #define directive
+   12 | #define
+      |        ^
+'Finished building: ../src/main.c'
+' '
+'Building target: MicroBlaze_Button.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -LD:/FPGA/MicroBlaze_Button/MicroBlaze_Button_vitis/design_MicroBlazeButton_wrapper/export/design_MicroBlazeButton_wrapper/sw/design_MicroBlazeButton_wrapper/domain_microblaze_0/bsplib/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "MicroBlaze_Button.elf"  ./src/hw/Button/Button.o  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: MicroBlaze_Button.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size MicroBlaze_Button.elf  |tee "MicroBlaze_Button.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   1808	    252	   3076	   5136	   1410	MicroBlaze_Button.elf
+'Finished building: MicroBlaze_Button.elf.size'
+' '

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="ASCII"?>
+<sdkproject:SdkProject xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:sdkproject="http://www.xilinx.com/sdkproject" name="button" location="D:/FPGA/MicroBlaze_Button/MicroBlaze_Button1_vitis/button" platform="D:/FPGA/MicroBlaze_Button/MicroBlaze_Button1_vitis/design_MicroBlazeButton_wrapper/export/design_MicroBlazeButton_wrapper/design_MicroBlazeButton_wrapper.xpfm" platformUID="xilinx:basys3::0.0(custom)" systemProject="button_system" sysConfig="design_MicroBlazeButton_wrapper" runtime="cpp" cpu="domain_microblaze_0" cpuInstance="microblaze_0" os="standalone" mssSignature="ab6c292c0ebefa0e743b85280d5a2fb3">
+  <configuration name="Debug" id="xilinx.gnu.mb.exe.debug.327058054">
+    <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+    <lastBuildOptions xsi:type="sdkproject:SdkOptions"/>
+  </configuration>
+  <configuration name="Release" id="xilinx.gnu.mb.exe.release.1410666293" dirty="true">
+    <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+  </configuration>
+  <template appTemplateName="hello_world"/>
+</sdkproject:SdkProject>

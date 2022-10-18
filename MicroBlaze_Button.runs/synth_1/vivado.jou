@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Tue Oct 18 15:05:57 2022
+# Process ID: 22624
+# Current directory: D:/FPGA/MicroBlaze_Button/MicroBlaze_Button.runs/synth_1
+# Command line: vivado.exe -log design_MicroBlazeButton_wrapper.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source design_MicroBlazeButton_wrapper.tcl
+# Log file: D:/FPGA/MicroBlaze_Button/MicroBlaze_Button.runs/synth_1/design_MicroBlazeButton_wrapper.vds
+# Journal file: D:/FPGA/MicroBlaze_Button/MicroBlaze_Button.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source design_MicroBlazeButton_wrapper.tcl -notrace

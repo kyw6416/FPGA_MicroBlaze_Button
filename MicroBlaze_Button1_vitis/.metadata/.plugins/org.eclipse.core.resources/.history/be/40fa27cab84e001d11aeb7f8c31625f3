@@ -1,0 +1,34 @@
+#include "main.h"
+
+int main()
+{
+    init_platform();
+
+    buttonInst modeButton;
+    buttonInst LshiftButton;
+    buttonInst RshiftButton;
+
+    Led_Init();
+    Button_Init();
+    Button_MakeInst(&modeButton, Button_0);
+    Button_MakeInst(&LshiftButton, Button_3);
+    Button_MakeInst(&RshiftButton, Button_2);
+    while (1)
+    {
+    	if(Buttom_GetState(&modeButton)){
+    		print("pushed mode button\n\r");
+    		Led_On();
+    	}
+    	if(Buttom_GetState(&LshiftButton)){
+    		print("pushed LshiftButton button\n\r");
+    		Led_Lshift();
+    	}
+    	if(Buttom_GetState(&RshiftButton)){
+    		print("pushed RshiftButton button\n\r");
+    	}
+
+    }
+
+    cleanup_platform();
+    return 0;
+}

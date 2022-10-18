@@ -1,0 +1,6 @@
+2022-10-18T14:19:29.294429800255-14:19:29 **** Build of configuration Debug for project MicroBlaze_Button_system ****
+000-make all 
+000-Skipping SD card image generation. Reason: "The system project only has applications for microblaze processors."
+00255-
+14:19:29 Build Finished (took 228ms)
+

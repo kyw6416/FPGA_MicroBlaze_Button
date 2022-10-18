@@ -1,0 +1,30 @@
+timestamp=[2022-10-18 13:32:14], mode=WORKBENCH_START, duration=0:00:09.370, duration_ms=9370, data={}
+timestamp=[2022-10-18 13:32:15], mode=WORKBENCH_UI_INIT, duration=0:00:01.018, duration_ms=1018, data={editors_count=0, platform_editors_count=0, projects_count=0, platform_projects_count=0, active_platform_editor=false, projects=}
+timestamp=[2022-10-18 13:32:21], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:04.354, duration_ms=4354, data={}
+timestamp=[2022-10-18 13:33:26], mode=APP_CREATION, duration=0:00:11.778, duration_ms=11778, data={name=MicroBlaze_Button, project_type=sdk, os=standalone, processor=microblaze, runtime=cpp, platform=design_MicroBlazeButton_wrapper, application_type=application}
+timestamp=[2022-10-18 13:43:34], mode=PLATFORM_GENERATION, duration=0:00:14.939, duration_ms=14939, data={name=design_MicroBlazeButton_wrapper}
+timestamp=[2022-10-18 13:43:36], mode=BUILD, duration=0:00:02.189, duration_ms=2189, data={name=MicroBlaze_Button, configuration=Debug, clean_build=false}
+timestamp=[2022-10-18 13:43:56], mode=BUILD, duration=0:00:01.281, duration_ms=1281, data={name=MicroBlaze_Button, configuration=Debug, clean_build=false}
+timestamp=[2022-10-18 14:03:25], mode=BUILD, duration=0:00:01.220, duration_ms=1220, data={name=MicroBlaze_Button, configuration=Debug, clean_build=false}
+timestamp=[2022-10-18 14:03:49], mode=BUILD, duration=0:00:01.198, duration_ms=1198, data={name=MicroBlaze_Button, configuration=Debug, clean_build=false}
+timestamp=[2022-10-18 14:05:15], mode=BUILD, duration=0:00:00.547, duration_ms=547, data={name=MicroBlaze_Button, configuration=Debug, clean_build=false}
+timestamp=[2022-10-18 14:05:59], mode=BUILD, duration=0:00:00.584, duration_ms=584, data={name=MicroBlaze_Button, configuration=Debug, clean_build=false}
+timestamp=[2022-10-18 14:06:05], mode=BUILD, duration=0:00:00.575, duration_ms=575, data={name=MicroBlaze_Button, configuration=Debug, clean_build=false}
+timestamp=[2022-10-18 14:07:06], mode=BUILD, duration=0:00:00.581, duration_ms=581, data={name=MicroBlaze_Button, configuration=Debug, clean_build=false}
+timestamp=[2022-10-18 14:07:54], mode=BUILD, duration=0:00:01.215, duration_ms=1215, data={name=MicroBlaze_Button, configuration=Debug, clean_build=false}
+timestamp=[2022-10-18 14:09:32], mode=BUILD, duration=0:00:00.613, duration_ms=613, data={name=MicroBlaze_Button, configuration=Debug, clean_build=false}
+timestamp=[2022-10-18 14:09:51], mode=BUILD, duration=0:00:01.211, duration_ms=1211, data={name=MicroBlaze_Button, configuration=Debug, clean_build=false}
+timestamp=[2022-10-18 14:11:00], mode=BUILD, duration=0:00:00.572, duration_ms=572, data={name=MicroBlaze_Button, configuration=Debug, clean_build=false}
+timestamp=[2022-10-18 14:16:43], mode=BUILD, duration=0:00:00.908, duration_ms=908, data={name=MicroBlaze_Button, configuration=Debug, clean_build=false}
+timestamp=[2022-10-18 14:17:12], mode=BUILD, duration=0:00:01.460, duration_ms=1460, data={name=MicroBlaze_Button, configuration=Debug, clean_build=false}
+timestamp=[2022-10-18 14:18:12], mode=BUILD, duration=0:00:01.448, duration_ms=1448, data={name=MicroBlaze_Button, configuration=Debug, clean_build=false}
+timestamp=[2022-10-18 14:19:28], mode=BUILD, duration=0:00:00.288, duration_ms=288, data={name=MicroBlaze_Button, configuration=Debug, clean_build=false}
+timestamp=[2022-10-18 14:19:29], mode=BUILD, duration=0:00:00.253, duration_ms=253, data={name=MicroBlaze_Button_system, configuration=Debug, clean_build=false}
+timestamp=[2022-10-18 14:22:33], mode=BUILD, duration=0:00:01.477, duration_ms=1477, data={name=MicroBlaze_Button, configuration=Debug, clean_build=false}
+timestamp=[2022-10-18 14:24:02], mode=BUILD, duration=0:00:01.223, duration_ms=1223, data={name=MicroBlaze_Button, configuration=Debug, clean_build=false}
+timestamp=[2022-10-18 14:25:53], mode=BUILD, duration=0:00:01.325, duration_ms=1325, data={name=MicroBlaze_Button, configuration=Debug, clean_build=false}
+timestamp=[2022-10-18 15:46:27], mode=BUILD, duration=0:00:01.800, duration_ms=1800, data={name=MicroBlaze_Button, configuration=Debug, clean_build=false}
+timestamp=[2022-10-18 15:47:06], mode=BUILD, duration=0:00:01.081, duration_ms=1081, data={name=MicroBlaze_Button, configuration=Debug, clean_build=false}
+timestamp=[2022-10-18 15:47:48], mode=BUILD, duration=0:00:01.071, duration_ms=1071, data={name=MicroBlaze_Button, configuration=Debug, clean_build=false}
+timestamp=[2022-10-18 15:48:20], mode=BUILD, duration=0:00:01.147, duration_ms=1147, data={name=MicroBlaze_Button, configuration=Debug, clean_build=false}
+timestamp=[2022-10-18 15:49:26], mode=BUILD, duration=0:00:02.252, duration_ms=2252, data={name=MicroBlaze_Button, configuration=Debug, clean_build=false}

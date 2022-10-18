@@ -1,0 +1,25 @@
+src/platform.o src/platform.o: ../src/platform.c \
+ D:/FPGA/MicroBlaze_Button/MicroBlaze_Button1_vitis/design_MicroBlazeButton_wrapper/export/design_MicroBlazeButton_wrapper/sw/design_MicroBlazeButton_wrapper/domain_microblaze_0/bspinclude/include/xparameters.h \
+ D:/FPGA/MicroBlaze_Button/MicroBlaze_Button1_vitis/design_MicroBlazeButton_wrapper/export/design_MicroBlazeButton_wrapper/sw/design_MicroBlazeButton_wrapper/domain_microblaze_0/bspinclude/include/xil_cache.h \
+ D:/FPGA/MicroBlaze_Button/MicroBlaze_Button1_vitis/design_MicroBlazeButton_wrapper/export/design_MicroBlazeButton_wrapper/sw/design_MicroBlazeButton_wrapper/domain_microblaze_0/bspinclude/include/mb_interface.h \
+ D:/FPGA/MicroBlaze_Button/MicroBlaze_Button1_vitis/design_MicroBlazeButton_wrapper/export/design_MicroBlazeButton_wrapper/sw/design_MicroBlazeButton_wrapper/domain_microblaze_0/bspinclude/include/xil_types.h \
+ D:/FPGA/MicroBlaze_Button/MicroBlaze_Button1_vitis/design_MicroBlazeButton_wrapper/export/design_MicroBlazeButton_wrapper/sw/design_MicroBlazeButton_wrapper/domain_microblaze_0/bspinclude/include/xil_assert.h \
+ D:/FPGA/MicroBlaze_Button/MicroBlaze_Button1_vitis/design_MicroBlazeButton_wrapper/export/design_MicroBlazeButton_wrapper/sw/design_MicroBlazeButton_wrapper/domain_microblaze_0/bspinclude/include/xil_exception.h \
+ D:/FPGA/MicroBlaze_Button/MicroBlaze_Button1_vitis/design_MicroBlazeButton_wrapper/export/design_MicroBlazeButton_wrapper/sw/design_MicroBlazeButton_wrapper/domain_microblaze_0/bspinclude/include/xparameters.h \
+ ../src/platform_config.h
+
+D:/FPGA/MicroBlaze_Button/MicroBlaze_Button1_vitis/design_MicroBlazeButton_wrapper/export/design_MicroBlazeButton_wrapper/sw/design_MicroBlazeButton_wrapper/domain_microblaze_0/bspinclude/include/xparameters.h:
+
+D:/FPGA/MicroBlaze_Button/MicroBlaze_Button1_vitis/design_MicroBlazeButton_wrapper/export/design_MicroBlazeButton_wrapper/sw/design_MicroBlazeButton_wrapper/domain_microblaze_0/bspinclude/include/xil_cache.h:
+
+D:/FPGA/MicroBlaze_Button/MicroBlaze_Button1_vitis/design_MicroBlazeButton_wrapper/export/design_MicroBlazeButton_wrapper/sw/design_MicroBlazeButton_wrapper/domain_microblaze_0/bspinclude/include/mb_interface.h:
+
+D:/FPGA/MicroBlaze_Button/MicroBlaze_Button1_vitis/design_MicroBlazeButton_wrapper/export/design_MicroBlazeButton_wrapper/sw/design_MicroBlazeButton_wrapper/domain_microblaze_0/bspinclude/include/xil_types.h:
+
+D:/FPGA/MicroBlaze_Button/MicroBlaze_Button1_vitis/design_MicroBlazeButton_wrapper/export/design_MicroBlazeButton_wrapper/sw/design_MicroBlazeButton_wrapper/domain_microblaze_0/bspinclude/include/xil_assert.h:
+
+D:/FPGA/MicroBlaze_Button/MicroBlaze_Button1_vitis/design_MicroBlazeButton_wrapper/export/design_MicroBlazeButton_wrapper/sw/design_MicroBlazeButton_wrapper/domain_microblaze_0/bspinclude/include/xil_exception.h:
+
+D:/FPGA/MicroBlaze_Button/MicroBlaze_Button1_vitis/design_MicroBlazeButton_wrapper/export/design_MicroBlazeButton_wrapper/sw/design_MicroBlazeButton_wrapper/domain_microblaze_0/bspinclude/include/xparameters.h:
+
+../src/platform_config.h:

@@ -1,0 +1,9 @@
+#include "Led.h"
+
+XGpio GPIO_LED;
+
+void Led_Init()
+{
+	XGpio_Initialize(&GPIO_LED, XPAR_AXI_GPIO_0_DEVICE_ID);
+	XGpio_SetDataDirection(&GPIO_LED, CHANNEL_1, 0x00);			// 0xff : input으로 사용하겠다
+}

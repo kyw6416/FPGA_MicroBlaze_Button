@@ -1,0 +1,40 @@
+#include "Led.h"
+
+XGpio GPIO_LED;
+
+void Led_Init()
+{
+	XGpio_Initialize(&GPIO_LED, XPAR_AXI_GPIO_0_DEVICE_ID);
+	XGpio_SetDataDirection(&GPIO_LED, CHANNEL_1, 0x00);
+}
+
+
+void Led_On()
+{
+	XGpio_DiscreteWrite(&GPIO_LED, CHANNEL_1, 0xff);
+}
+
+void Led_Off()
+{
+	XGpio_DiscreteWrite(&GPIO_LED, CHANNEL_1, 0x00);
+}
+
+int ledstate = 0;
+
+void Led_Lshift()
+{
+	int i = 0;
+	XGpio_DiscreteWrite(&GPIO_LED, CHANNEL_1, i);
+	i  |= 1 << ledstate;
+	usleep(300000);
+	ledstate++
+}
+
+void Led_Rshift()
+{
+
+	XGpio_DiscreteWrite(&GPIO_LED, CHANNEL_1, i);
+	i  |= 1024 >> ledstate;
+	usleep(300000);
+	ledstate++
+}
